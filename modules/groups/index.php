@@ -1,4 +1,4 @@
-<?php /* GROUPS $Id: index.php,v 0.1 2004/02/03 michaelfinger Exp $ */
+<?php /* GROUPS $Id: index.php,v 1.1.1.1 2004/02/09 20:26:35 aardvarkads Exp $ */
 $AppUI->savePlace();
 
 // retrieve any state parameters

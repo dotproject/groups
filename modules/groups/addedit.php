@@ -1,4 +1,4 @@
-<?php /* GROUPS $Id: addedit.php,v 0.1 2004/02/03 12:25:24 michaelfinger Exp $ */
+<?php /* GROUPS $Id: addedit.php,v 1.1.1.1 2004/02/09 20:26:35 aardvarkads Exp $ */
 $group_id = intval( dPgetParam( $_GET, "group_id", 0 ) );
 
 // check permissions for this group

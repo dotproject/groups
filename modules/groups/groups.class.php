@@ -1,8 +1,8 @@
-<?php /* GROUPS $Id: groups.class.php,v 0.1 2004/02/03 12:07:45 michaelfinger Exp $ */
+<?php /* GROUPS $Id: groups.class.php,v 1.1.1.1 2004/02/09 20:26:35 aardvarkads Exp $ */
 /**
  *	@package dotProject
  *	@subpackage modules
- *	@version $Revision: 1.7 $
+ *	@version $Revision: 1.1.1.1 $
 */
 
 require_once( $AppUI->getSystemClass ('dp' ) );
