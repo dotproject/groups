@@ -1,4 +1,4 @@
-<?php /* GROUPS $Id: do_group_aed.php,v 0.1 2004/02/03 12:34:04 michaelfinger Exp $ */
+<?php /* GROUPS $Id: do_group_aed.php,v 1.1.1.2 2004/02/09 21:54:54 aardvarkads Exp $ */
 $del = dPgetParam( $_POST, 'del', 0 );
 $obj = new CGroup();
 $msg = '';
@@ -28,7 +28,7 @@ if ($del) {
 	} else {
 		$AppUI->setMsg( @$_POST['group_id'] ? 'updated' : 'added', UI_MSG_OK, true );
 	}
-	$obj->updateGroupsContacts( $contact_list );
+	$obj->updateGroupsContacts( $_POST['contact_list'] );
 	$AppUI->redirect();
 }
 ?>
